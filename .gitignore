@@ -1,0 +1,41 @@
+# Build artifacts and temporary files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Design tool specific files
+*.psd~
+*.ai~
+*.sketch~
+.figma-cache/
+
+# Optimization tools cache
+.imageoptim-cache/
+.tinypng-cache/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Compressed archives (keep source files)
+*.zip
+*.tar.gz
+*.rar
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build outputs (if any automation is added later)
+dist/
+build/
+out/
